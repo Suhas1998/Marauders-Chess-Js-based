@@ -1,0 +1,80 @@
+p {
+	display: inline-block;
+}
+
+#score_board{
+	font-size: 150%;
+	text-align: center;	
+}
+
+*{
+	box-sizing: border-box;
+}
+
+.heading{
+	font-size: 45px;
+	color: black;
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	height: 125px;
+}
+h1,h2,h4{
+	text-align: center;
+}
+html, body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin: 0;
+}
+
+.buttons_menu{
+	width : 130px;
+	height :760px;
+	padding-bottom: 0;
+	margin: 0;
+	display: inline-block;
+	float: left;
+	background-color: rgb(211,211,211) ;
+	border: 3px solid rgb(130,130,130);
+}
+
+.rotateButton{
+	width: 125px;
+	height: 108px;
+	font-size: 20px;
+  	background-image: linear-gradient(to bottom right, #cfb17d, #bf9656);
+}
+
+#chess{  
+	color: red;
+	padding-bottom: 0;
+	margin: 0;
+	display: inline-block;
+	float: left;
+}
+
+#log_box{
+	width : 355px;
+	height :760px;
+	float: left;
+	display: inline-block;
+	background-color: rgb(211,211,211) ;
+	border: 3px solid rgb(130,130,130);
+	
+}
+
+.Score{
+	display:inline;
+	padding: 1px 20px;
+	width: 140px;
+	font-size: 25px;
+}
+
+#Messages {
+	width : 355px;
+	height :340px;
+	background-color: white ;
+	border: 2px solid black;
+	overflow-y: scroll;
+}
