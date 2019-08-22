@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>HTML5 Canvas - Chess board</title>
+   		<script src='Position_script.js'> </script>
+        <link rel="stylesheet" type="text/css" href="Position_style.css">
+    </head>
+    <body onload="startGame();" >
+            <h1>NOT SURE IF THE EVENT WILL BE COMPLETED</h1>
+            <hr>
+            <div>
+                <canvas id="chess" width="1100px" height="760px"> </canvas>
+                <div id="log_box" >
+                    <span class="Timer"> Time Left : </span><div id="timer_div" class="Timer" > </div><span class="Timer"> Seconds</span><hr>
+                    <h2 style="text-align: center;"> RULES</h2><hr>
+                    <ul style="font-size: 25px;">
+                        <li>Four of your pieces are initially placed outside the Board on a Platform.</li>
+                        <li>Position your Pieces onto the 'FIRST ROW' of the Main Board to start the game.</li>
+                        <li>The pieces should not be placed in the blocks where there is a wall on the top restricting it's movement into the board.</li>
+                        <li>Position the pieces before the above Timer completes 30 Seconds.</li>
+                    </ul>
+                </div>
+            </div>
+    </body>
+</html>
